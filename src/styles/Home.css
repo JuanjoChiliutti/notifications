@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'PlusJakartaSans-ExtraBold';
+   src: url('./assets/fonts/static/PlusJakartaSans-ExtraBold.ttf') format('truetype'); 
+ }
+
+ @font-face {
+    font-family: 'PlusJakartaSans-Medium';
+   src: url('./assets/fonts/static/PlusJakartaSans-Medium.ttf') format('truetype'); 
+ }
+.contenedor-principal {
+    background-color: rgb(240, 238, 238);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.notifications-bar {
+    width: 100%;
+    padding-left: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+}
+.notiff {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 12em;
+}
+.notif {
+    font-family: 'PlusJakartaSans-ExtraBold';
+    font-size: large;
+
+}
+.notif-counter {
+    margin-top: 0.2em;
+    width: 1.8em;
+    height: 1.5em;
+    background-color: rgb(9, 76, 139);
+    color: rgb(255,255,255);
+    padding: 0.1em 0.2em;
+    font-family: 'PlusJakartaSans-ExtraBold';
+    font-size: small;
+    text-align: center;
+    border-radius: 0.3em;
+}
+
+.notifications-items {
+    margin-top: 4em;
+    background-color: rgb(255,255,255);
+    width: 35em;
+    padding: 1em;
+    border-radius: 0.4em;
+}
+.todo {
+    user-select: none;
+    margin: 0.5em 0em;
+    background-color: rgb(255,255,255);
+    border-radius: 0.3em;
+    color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.user-image {
+    width: 2.5em;  
+    margin:1em 1em
+}
+
+.user-image img {
+    width: 2.5em;
+
+}
+
+.user-message {
+    margin-left: 4em;
+    width: 85%;
+    border: 1px solid rgb(240, 238, 238);
+    border-radius: 0.3em;
+    padding: 0.3em;
+    color:rgb(96, 96, 96)
+}
+.user-description {
+    
+    width: 80%;
+}
+.user-inline {
+    width: 100%;
+}
+
+.bold-black {
+    font-family: 'PlusJakartaSans-ExtraBold';
+}
+.bold-gray {
+    font-family: 'PlusJakartaSans-ExtraBold';
+    color: rgb(90, 90, 90)
+}
+.font-gray {
+    color: rgb(90, 90, 90)
+}
+.btn-mark {
+    background: none;
+    border: none;
+    color: rgb(90, 90, 90);
+    
+}
+.btn-mark:hover {
+    color: rgb(9, 76, 139);
+}
+
+.text-hover:hover {
+    color: rgb(1, 62, 120)
+}
+.active {
+    background-color: rgb(235, 244, 251);
+}
+
+.todo:hover {
+    cursor: pointer;
+}
+
+.picshared {
+    width: 2.5em;  
+    margin:1em 1em
+}
+
+.picshared img {
+    width: 2.5em;
+
+}
+.user-message:hover {
+    background-color: rgb(212, 233, 253);
+}
+.redpoint {
+    color: rgb(255,0,0);
+    font-size:x-large;
+}
+
+@media (max-width: 767px) {
+    .notifications-items {
+        width: 100%;
+    }
+    .user-message{
+        width: 80%;
+    }
+    }
