@@ -1,6 +1,14 @@
 
 import './App.css'
 import Home from './components/Home'
+import markWebberAvatar from '../src/assets/images/avatar-mark-webber.webp'
+import angelaGray from '../src/assets/images/avatar-angela-gray.webp'
+import jacobThompson from '../src/assets/images/avatar-jacob-thompson.webp'
+import rizkyHasanuddin from '../src/assets/images/avatar-rizky-hasanuddin.webp'
+import kimberlySmith from '../src/assets/images/avatar-kimberly-smith.webp'
+import nathanPeterson from '../src/assets/images/avatar-nathan-peterson.webp'
+import annaKim from '../src/assets/images/avatar-anna-kim.webp'
+import chess from '../src/assets/images/image-chess.webp'
 
 function App() {
   const api = [
@@ -10,7 +18,7 @@ function App() {
       action: 'reacted to your recent post',
       adic: 'My first tournament today!',
       time: '1m ago',
-      image: '../../src/assets/images/avatar-mark-webber.webp',
+      image: markWebberAvatar,
       active: true
     },
     {
@@ -18,7 +26,7 @@ function App() {
       name: 'Angela Gray',
       action: 'followed you',
       time: '5m ago',
-      image: '../../src/assets/images/avatar-angela-gray.webp',
+      image: angelaGray,
       active: true
     },
     {
@@ -27,7 +35,7 @@ function App() {
       action: 'has joined your group',
       adic: 'Chess Club',
       time: '1 day ago',
-      image: '../../src/assets/images/avatar-jacob-thompson.webp',
+      image: jacobThompson,
       active: true
 
     },
@@ -37,7 +45,7 @@ function App() {
       action: 'sent you a private message',
       time: '5 days ago',
       message:"Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.",
-      image: '../../src/assets/images/avatar-rizky-hasanuddin.webp',
+      image: rizkyHasanuddin,
       active: false
     },
     {
@@ -45,9 +53,9 @@ function App() {
       name: 'Kimberly Smith',
       action: 'commented on your picture',
       time: '1 week ago',
-      image: '../../src/assets/images/avatar-kimberly-smith.webp',
+      image: kimberlySmith,
       active: false,
-      picshared: '../../src/assets/images/image-chess.webp'
+      picshared: chess
     },
     {
       id:6,
@@ -55,7 +63,7 @@ function App() {
       action: 'reacted to your recent post',
       adic: '5 end-game strategies to increase your win rate',
       time: '2 weeks ago',
-      image: '../../src/assets/images/avatar-nathan-peterson.webp',
+      image: nathanPeterson,
       active: false
     },
     {
@@ -64,7 +72,7 @@ function App() {
       action: 'left the group',
       adic: 'Chess Club',
       time: '2 weeks ago',
-      image: '../../src/assets/images/avatar-anna-kim.webp',
+      image: annaKim,
       active: false
     }
   ]
