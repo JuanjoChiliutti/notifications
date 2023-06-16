@@ -54,7 +54,7 @@ function Home({api}) {
             <div className='user-image'><img src={item.image} alt='' /></div>
             <div className='user-description'>
               <div className='user-inline'>
-                <span className='bold-black text-hover'>{item.name} </span><span className='font-gray'>{item.action} </span>{item.adic && <span className='bold-gray text-hover'>{item.adic}</span>}{item.active && <span className='redpoint'>•</span>}
+                <span className='bold-black text-hover'>{item.name} </span><span className='font-gray'>{item.action} </span>{item.adic && <span className='bold-gray'>{item.adic}</span>}{item.active && <span className='redpoint'>•</span>}
               </div>
     
               <div className='font-gray'>{item.time}</div>
